@@ -5,9 +5,9 @@ import { FiExternalLink, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 const projects = [
   {
     id: 1,
-    title: 'E-commerce Platform',
-    tech: 'React / Node.js / MongoDB',
-    description: 'Full-stack shopping platform with real-time inventory management',
+    title: 'Graduation Ceremony',
+    tech: 'Canon D50',
+    description: 'Story of a University graduate',
     images: ['1.jpg', '2.jpg', '3.jpg'],
     links: {
       live: '#',
@@ -16,9 +16,9 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Social Media App',
-    tech: 'Next.js / Firebase / Tailwind',
-    description: 'Modern social platform with instant messaging and content sharing',
+    title: 'Pre Wedding',
+    tech: 'Sony E50',
+    description: 'When a ceremony brings back old memories',
     images: ['2.jpg', '3.jpg'],
     links: {
       live: '#',
@@ -27,9 +27,9 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Portfolio Website',
-    tech: 'React / Framer Motion',
-    description: 'Interactive portfolio with smooth animations and 3D elements',
+    title: 'Family Re-union',
+    tech: 'Sony E50',
+    description: 'All inside a same frame after a decade',
     images: ['3.jpg', '1.jpg'],
     links: {
       live: '#',

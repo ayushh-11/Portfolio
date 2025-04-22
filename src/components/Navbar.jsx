@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-tr from-indigo-500 to-purple-600 rounded-lg" />
             <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              Suman Moments
+              SM
             </span>
           </div>
 
@@ -112,7 +112,7 @@ const Navbar = () => {
                   whileTap={{ scale: 0.95 }}
                   className="w-full px-4 py-3 text-sm font-medium rounded-full text-white bg-gradient-to-r from-indigo-500 to-purple-600 shadow-md hover:shadow-lg transition-all"
                 >
-                  Let's Connect
+                  <a href="https://www.linkedin.com/in/suman-neupane-434221218/" className="text-sm">Lets Connect</a>
                 </motion.button>
               </div>
             </motion.div>

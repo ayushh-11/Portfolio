@@ -14,7 +14,7 @@ const Contact = () => {
             <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
-                className="absolute -top-32 -right-32 w-64 h-64 bg-purple-100/30 rounded-full blur-2xl"
+                className="absolute -top-32 -right-32 w-6 h-64 bg-purple-100/30 rounded-full blur-2xl"
             />
             <motion.div
                 initial={{ scale: 0 }}
@@ -27,7 +27,7 @@ const Contact = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-[200px_1fr]"
+                    className="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-[250px_1fr]"  
                 >
                     {/* Sidebar */}
                     <motion.div
@@ -42,7 +42,7 @@ const Contact = () => {
                                 className="flex flex-row items-center gap-2 text-white"
                             >
                                 <FiLinkedin className="text-2xl" />
-                                <span className="text-sm">/suman</span>
+                                <a href="https://www.linkedin.com/in/suman-neupane-434221218/" className="text-sm">@suman</a>
                             </motion.a>
                             <motion.a
                                 whileHover={{ scale: 1.05 }}
@@ -50,7 +50,7 @@ const Contact = () => {
                                 className="flex flex-row items-center gap-2 text-white"
                             >
                                 <FaInstagram className="text-2xl" />
-                                <span className="text-sm">@suman</span>
+                                <a href="https://www.instagram.com/suman_neupanee/" className="text-sm">@suman</a>
                             </motion.a>
                             <motion.a
                                 whileHover={{ scale: 1.05 }}
@@ -58,7 +58,7 @@ const Contact = () => {
                                 className="flex flex-row items-center gap-2 text-white"
                             >
                                 <FaFacebookF className="text-2xl" />
-                                <span className="text-sm">/suman.fb</span>
+                                <a href="https://www.facebook.com/suman.neupane22" className="text-sm">/suman.fb</a>
                             </motion.a>
                             <motion.a
                                 whileHover={{ scale: 1.05 }}
@@ -66,7 +66,7 @@ const Contact = () => {
                                 className="flex flex-row items-center gap-2 text-white"
                             >
                                 <FiMail className="text-2xl" />
-                                <span className="text-sm">suman@example.com</span>
+                                <span className="text-sm">sumanneupane366gmail.com</span>
                             </motion.a>
                         </div>
                     </motion.div>
